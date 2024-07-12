@@ -1,0 +1,100 @@
+.home-container{
+    height: 980px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  
+
+}
+
+.home-inside-container{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.code-logo{
+    height: 90vh;
+    width: 100%;
+    opacity: 0.1;
+    position: absolute;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.text-overlay {
+  position: relative;
+  font-size: 25px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 45px;
+  color: white;
+
+
+
+
+  }
+
+.intro-text{
+    font-size: 70px;
+    font-family: "Roboto";
+    font-weight: 200;
+    margin: 0px;
+    padding: 0px;
+    font-style: oblique;
+}
+
+.i-am{
+  margin: 0px;
+  font-family: "Roboto";
+  font-style: oblique;
+}
+
+
+
+
+@media only screen and (max-width: 500px){
+
+.home-inside-container{
+  margin-bottom: 100px;
+}
+
+.text-overlay{
+  font-size: 15px;
+  margin: 0px;
+  width: 100%;
+
+}
+
+.intro-text{
+  font-size: 40px;
+}
+.hello{
+  margin-bottom: 10px;
+}
+.i-am{
+  margin-top: 10px;
+}
+
+}
+
+
+@media only screen and (min-width: 551px) and (max-width: 1200px){
+
+
+.intro-text{
+  font-size: 40px;
+}
+.i-am{
+  font-size: 37px;
+}
+.home-container{
+  height: 90vh;
+}
+}

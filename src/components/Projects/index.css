@@ -1,0 +1,165 @@
+.projects-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.projects-start-tag-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+}
+
+.projects-start-tag{
+     color: rgb(19, 231, 0);
+     font-size: 22px;
+    opacity: 0.7;
+}
+
+
+.projects-inside-container{
+    height: 90%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 3px solid rgb(19, 231, 0);
+       box-shadow: 0px 4px 16px 0px rgb(19, 231, 0);
+           background-color: #161f27;
+       padding: 15px;
+}
+
+.html-projects{
+    width: 97%;
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 5px;
+
+}
+
+.html-heading{
+    text-align: left;
+    font-size: 25px;
+    font-family: "Roboto";
+    color: white;
+    margin-bottom: 10px;
+}
+
+.right-outline{
+    height: 25px;
+    width: 25px;
+    color: rgb(19, 231, 0);
+
+}
+
+.html-inside-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+    
+
+}
+
+
+.anchor-tag{
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 20px;
+    color: white;
+    padding-left: 5px;
+}
+.anchor-tag:hover{
+    font-size: 25px;
+}
+.about-project{
+    font-family: "Roboto";
+    color: white;
+    opacity: 0.6;
+    margin-top: 10px;
+    padding-left: 30px
+}
+
+
+
+@media only screen and (max-width: 551px){
+
+.projects-start-tag{
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+
+.projects-inside-container{
+    height: 60%;
+    width: 95%;
+}
+
+.html-heading{
+    font-size: 20px;
+}
+
+.html-inside-container{
+    height: 25px;
+}
+
+.anchor-tag{
+    font-size: 15px;
+}
+
+.about-project{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.html-projects{
+    padding: 0px;
+}
+
+.right-outline{
+    height: 20px;
+    width: 20px;
+}
+
+}
+
+
+@media only screen and (min-width: 551px) and (max-width: 1200px){
+
+.projects-start-tag{
+    font-size: 18px;
+}
+
+.html-heading{
+    font-size: 22px;
+}
+
+.anchor-tag{
+    font-size: 15px;
+
+}
+
+.about-project{
+    font-size: 12px;
+    margin-top: 0px;
+    padding-left: 24px;
+}
+
+.right-outline{
+    height: 20px;
+    width: 20px;
+}
+
+}

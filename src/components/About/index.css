@@ -1,0 +1,169 @@
+.about-container{
+    width: 100vw;
+      background-color: #161f27;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+;
+}
+.about-start-tag-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+}
+
+.about-start-tag{
+     color: rgb(19, 231, 0);
+    font-size: 22px;
+    opacity: 0.7;
+}
+
+
+.about-inside-container{
+    width: 95vw;
+    display: flex;
+         box-shadow: 0px 4px 16px 0px rgb(19, 231, 0);
+    border-radius: 10px;
+    border: 1px solid rgb(19, 231, 0) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about-description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+    height: 100%;
+    margin-left: 14px;
+   
+
+}
+
+.about-description{
+    font-size: 22px;
+    font-family: "Roboto";
+    color: white;
+    padding: 10px;
+   
+}
+
+
+.about-image-container{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.about-image{
+    height: 400px;
+    width: 400px;
+}
+
+
+
+.span-element:hover{
+    color: rgb(19, 231, 0);
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 551px){
+
+.about-start-tag{
+    font-size: 15px;
+    opacity: 0.7;
+}
+.about-end-tag{
+    font-size: 25px;
+}
+.about-description-container{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.about-description{
+    font-size: 12px;
+}
+
+.about-inside-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 93%;
+}
+
+.about-image{
+    height: 150px;
+    width: 150px;
+
+}
+.about-image-container{
+    order: 0;
+    
+}
+
+.about-description-container{
+    order: 1
+}
+}
+
+@media only screen and (min-width: 551px) and (max-width: 1200px){
+
+    .navbar-container{
+    height: 55px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about-start-tag{
+    font-size: 18px;
+  }
+  .about-inside-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 93%;
+}
+.about-image{
+    height: 200px;
+    width: 200px;
+    padding-top:10px ;
+
+}
+.about-image-container{
+    order: 0;
+    
+}
+
+.about-description-container{
+    width: 100%;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.about-description{
+    font-size: 15px;
+    text-align: left;
+}
+}

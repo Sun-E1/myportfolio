@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar-container{
+  height: 90px;
+  width: 100vw;
+  background-color: #18FF6D;
+  display: flex;
+  justify-content: space-between;                                                                                                                                                                                                             
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.logo-container{
+  display: flex;
+}
+
+
+.home-about-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 25px;
+  height: 100%;
+}
+
+.description{
+  font-size: 24px;
+  margin: 10px;
+  font-family: "Roboto";
+  text-decoration: none;
+  color: black;
+}
+.description:hover{
+  cursor: pointer;
+  color: #1f2933;
+
+}
+
+.logo-s{
+  height: 80px;
+  width: 80px;
+  margin-left: 15%;
+}
+
+.logo-t{
+  height: 80px;
+  width: 80px;
+}
+
+
+
+@media only screen and (max-width: 550px){
+  .navbar-container{
+    height: 55px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo-s{
+    height: 40px;
+    width: 40px;
+  }
+  .home-about-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+    margin-left: 40px;
+    padding-left: 190px; 
+  
+    
+  }
+
+  .logo-t{
+    height: 40px;
+    width: 40px;
+  }
+
+  .description{
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: 150px;
+    font-style: oblique;
+    color: black;
+    font-family: "Roboto";
+  }
+
+
+}
+
+
+@media only screen and (min-width: 551px) and (max-width: 1200px){
+
+    .navbar-container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .logo-s{
+    height: 40px;
+    width: 40px;
+    margin-left: 5%;
+  }
+    .logo-t{
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+  }
+
+  .description{
+    font-size: 15px;
+  }
+
+  .home-about-container{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 1%;
+  }
+
+}
